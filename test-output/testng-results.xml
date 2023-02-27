@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[URL Entered]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-02T17:53:48 IST" name="Default suite" finished-at="2023-02-02T17:55:25 IST" duration-ms="97027">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T17:53:48 IST" name="Default test" finished-at="2023-02-02T17:55:25 IST" duration-ms="97027">
+      <class name="com.qa.test.Surat_Registration_Form">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.test.Surat_Registration_Form@fba92d3]" started-at="2023-02-02T17:53:48 IST" name="loadConfig" finished-at="2023-02-02T17:53:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method signature="intiate_browser()[pri:0, instance:com.qa.test.Surat_Registration_Form@fba92d3]" started-at="2023-02-02T17:53:48 IST" name="intiate_browser" finished-at="2023-02-02T17:53:53 IST" duration-ms="4679" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[URL Entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- intiate_browser -->
+        <test-method signature="registration_form_details()[pri:1, instance:com.qa.test.Surat_Registration_Form@fba92d3]" started-at="2023-02-02T17:53:53 IST" name="registration_form_details" finished-at="2023-02-02T17:55:25 IST" duration-ms="92305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_form_details -->
+      </class> <!-- com.qa.test.Surat_Registration_Form -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
