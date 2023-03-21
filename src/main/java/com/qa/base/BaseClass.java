@@ -44,6 +44,7 @@ public class BaseClass {
 		if (browserName.contains("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			opt1 = new ChromeOptions();
+			sslerr.addArguments("--remote-allow-origins=*");
 			opt1.addArguments("--disable-infobars");
 			opt1.setAcceptInsecureCerts(true);
 			dr = new ChromeDriver(opt1);
